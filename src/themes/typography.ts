@@ -50,7 +50,7 @@ const fontWeight = {
     black: "900",
 }
 const fontFamilies = {
-  primary: "",
+  primary: "Open Sans, sans-serif",
 };
 
 module.exports = {

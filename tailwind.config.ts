@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss";
 
-
 const colors = require('./src/themes/colors')
 
 const {fontSize, lineHeight, fontWeight, fontFamilies} = require('./src/themes/typography')
@@ -23,18 +22,10 @@ const config: Config = {
       lineHeight,
       borderWidth: border,
       borderRadius,
+    
     },
 
-    
-
-   
-    
-
-    
-    
-
-   
-  
+ 
   },
   plugins: [],
 };
