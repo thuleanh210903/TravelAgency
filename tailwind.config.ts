@@ -23,6 +23,9 @@ const config: Config = {
       lineHeight,
       borderWidth: border,
       borderRadius,
+      backgroundImage: {
+        "banner":"url('/img/banner-bg.png')"
+      }
     },
 
     
