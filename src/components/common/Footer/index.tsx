@@ -3,11 +3,12 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import logo from '@/assets/logo.png'
+
 interface FooterProps {}
 
 export const Footer: React.FC<FooterProps> = () => {
     return (
-      <div className="container mx-auto flex flex-wrap items-center py-6 px-20">
+      <div className="mx-auto flex flex-wrap items-center py-6 px-20">
         <div className="">
           <Image src={logo} alt ="" className = "max-w-14"></Image>
           <p>Book your trip in minute, get full Control for much longer. </p>
